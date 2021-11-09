@@ -8,8 +8,13 @@ int main() {
 	cin>>i;
   ifstream test;
 	test.open(i);
-	string g;
+	string g="test";
 	while(getline(test, g)){
-		cout<<g;
+		if(g.find("shreksays(")==0 && g.find(")")==g.length()-1){
+			for(int o=10; o<g.length()-1;o++){
+				cout<<g[o];
+			}
+			cout<<"\n";
+		}
 	}
 } 
