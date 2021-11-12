@@ -58,10 +58,13 @@ int main() {
 				}
 				variables.push_back(varcontent);
 			}else if(g.find("shrekis")==0){
+				//comment syntax
 				continue;
 			}else if(g==""){
+				//just make sure that blankspace is ignored
 				continue;	
 			}else{
+				//error
 				cout<<"That's not very shreksy\n";
 				break;
 			}
