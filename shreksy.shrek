@@ -4,6 +4,6 @@ ogres are like myfirstshrexodus they have Hello, world!
 
 shrekis above is the variable syntax. It declares a variable, called myfirstshrexodus with the value of Hello, world!
 
-shreksays(shrexodus)
+shreksays(myfirstshrexodus)
 
 shrekis prints a variable, cannot print anything other than variables
